@@ -1,6 +1,7 @@
 .container{
     display: flex;
-    background-color:gray;
+    background-image:url(images/jakob-owens-Np_nvRuhpUo-unsplash\ \(1\).jpg);
+    background-size: cover;
     width: 100%;
     height:97vh;
     flex-direction: column;
@@ -8,29 +9,42 @@
 
 .topInfo{
     display: flex;
-    background-color:black;
+    background-color:lightgrey;
     justify-content: center;
-    width: 100%;
-    height:3vh;
-}
+    font-size: medium;
+    padding:0;
+    flex-wrap: wrap;
 
-#topInfoText{
-    color:white;
-    margin-top: 0;
 }
 
 .topBar{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 8vh;
     
 }
 
+.topBarRight{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#topRight{
+  width:3vW;
+}
+
+.topBarLeft{
+  display:flex;
+  align-items: center;
+}
+
+
 ul {
     display:flex;
-    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,3 +68,9 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+#topRight{
+  display:flex;
+  justify-content: flex-end;
+  width:2vW;
+}
