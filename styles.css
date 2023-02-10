@@ -37,6 +37,23 @@
   align-items: center;
 }
 
+.textContainer{
+  display:flex;
+  width:90%;
+  height:97vh;
+  align-items: flex-end;
+  margin:3%
+}
+
+.kort_info{
+  display: flex;
+  text-align: center;
+  width: 35%;
+  color:white;
+  font-size: 105%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 ul {
     display:flex;
@@ -69,8 +86,10 @@ ul {
 .container2{
   display:flex;
   flex-direction: column;
-  height:50vh;
+  align-items: center;
+  height:100vh;
   width:100%;
+
 }
 
 .topBar2{
@@ -83,6 +102,6 @@ ul {
   display:flex;
   flex-direction: row;
   width:90%;
-  padding:2%;
-  
+  justify-content: space-between;
 }
+
