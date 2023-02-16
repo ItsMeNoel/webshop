@@ -51,7 +51,7 @@ header{
 
 button{
   padding:5px 25px;
-  background-color: rgba(0,136,169,1);
+  background-color: rgb(3, 149, 185);
   border:none;
   border-radius: 15px;
   cursor:pointer;
@@ -114,3 +114,16 @@ button:hover{
   background-image: url(./Images/produkt\ 3.jpg);
 }
 
+.footer{
+  display: flex;
+  width: auto;
+  height: 45vh;
+  background-color:rgb(37, 37, 37);
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1%;
+}
+
+#contactTitle{
+  font-size: x-large;
+}
