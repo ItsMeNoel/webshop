@@ -116,6 +116,8 @@ button:hover{
 
 .footer{
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: auto;
   height: 45vh;
   background-color:rgb(37, 37, 37);
@@ -124,6 +126,7 @@ button:hover{
   padding: 1%;
 }
 
-#contactTitle{
+#footerTitle{
   font-size: x-large;
+  
 }
