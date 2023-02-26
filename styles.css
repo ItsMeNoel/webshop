@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
 *{
   box-sizing: border_box;
   padding:0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container1{
@@ -12,7 +14,7 @@
   background-color: lightgray;
 }
 
-li, a, button{
+li, a{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   text-decoration: none;
@@ -23,9 +25,12 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 6px 10px;
-  color:white;
+  padding: 9px 10px;
+  color:black;
   background-color: gray;
+}
+.invisible-text{
+  color: gray;
 }
 
 .logo{
@@ -82,7 +87,7 @@ button:hover{
 }
 
 
-.produkt{
+.products{
   display:flex;
 }
 
@@ -93,6 +98,7 @@ button:hover{
   margin: 10px;
   border-radius: 10px;
   text-align: center;
+  
 }
 
 .card-image{
@@ -125,8 +131,50 @@ button:hover{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 1%;
 }
+.maps{
+  color: white;
+  text-decoration-line: underline;
+}
 
-#footerTitle{
+.footerTitle{
   font-size: x-large;
   
+}
+
+@media (max-width: 1080px){
+  .nav {
+      padding: 15px;
+  }
+  section{
+      padding: 3rem 0 2rem;
+  }
+  .container{
+      margin: 0 auto;
+      width: 100%;
+  }
+  .shop{
+      margin-top: 2rem !important;
+  }
+}
+@media (max-width: 500px){
+  .nav {
+      padding: 1px 0;
+  }
+  .logo{
+      font-size: 1rem;
+  }
+  .invisible-text{
+      font-size: 0.5rem;
+  }   
+}
+@media (max-width: 815px){
+  .container1{
+    height: 50vh;
+  }
+  .container2{
+    height: 190vh;
+  }
+  .products{
+    flex-direction: column;
+  }
 }
