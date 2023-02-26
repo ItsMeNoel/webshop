@@ -55,9 +55,7 @@ body{
     height: 94.1vh;
     flex-direction: row;
 }
-.image{
-    height: 100%;
-}
+
 .right-side{
     display: flex;
     justify-content: center;
@@ -89,8 +87,5 @@ body{
     .right-side{
         padding-bottom: 3rem;
     }
-    .image{
-        max-width: auto;
-        max-height: auto;
-    }
+    
 }
